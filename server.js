@@ -23,10 +23,10 @@ app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// // Wildcard route to direct to 404 page
-// app.get('*', (req, res) =>
-//     res.sendFile(path.join(__dirname, '/public/404page.html'))
-// );
+// Wildcard route to direct to 404 page
+app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/404page.html'))
+);
 
 // To start the hosting
 app.listen(PORT, () =>
