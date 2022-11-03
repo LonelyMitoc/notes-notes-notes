@@ -2,7 +2,7 @@
 const notes = require('express').Router();
 const fs = require('fs');
 const { notesArr } = require('../db/db.json');
-// Helper method for generating unique IDs
+// Helper method for generating unique IDs from node.js
 const { v4: uuidv4 } = require('uuid');
 
 // GET request to retrieve all data from db.json
