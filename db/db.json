@@ -1,7 +1,14 @@
-[
-    {
-        "notesTitle":"Test Title",
-        "notes":"Test text",
-        "notes_id": "Test id"
-    }
-]
+{
+    "notesArr": [
+        {
+            "title": "h",
+            "text": "h",
+            "id": "98cd60f0-42c6-4180-9e80-da80b1d96608"
+        },
+        {
+            "title": "g",
+            "text": "g",
+            "id": "664eba3c-15ad-4c10-b7e0-fb1431d548e4"
+        }
+    ]
+}
